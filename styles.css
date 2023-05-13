@@ -43,4 +43,47 @@ nav {
   #navbar li a.active {
     background-color: orangered;
   }
+  .box1 {
+    width: 700px;
+    height: 600px;
+    float: right;
+    
+  }
   
+  #image1text {
+    height: 400px;
+    width: 500px;
+    position:absolute;
+    left: 5%;
+    top: 200px;
+  }
+  #image1text h3{
+    font-size: 39px;
+    font-weight: 900;
+    color: black;
+
+  }
+  #image1text p{
+    padding: 0 0 0 20px;
+    font-size: 21px;
+
+  }
+  #image1text button {
+    height: 40px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background: orangered;
+    cursor: pointer;
+    font-weight: bold;
+  }
+#image1text button:hover{ 
+  background-color: tomato;
+}
+#imagetext1 img {
+  height: 100px;
+  position: absolute;
+  top: -200px;;
+
+
+}
