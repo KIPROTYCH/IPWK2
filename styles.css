@@ -93,6 +93,7 @@ nav {
     left: 5%;
     top: 500px;
 }
+
 #top button {
   height: 40px;
     width: 80px;
@@ -101,15 +102,15 @@ nav {
     background: orangered;
     cursor: pointer;
     font-weight: bold;
-  
 }
 
 .cars{
   padding: 0 10px 30px 10px;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px 35px;
-  margin-top: 600px;
+  margin-top: 300px;
+  width: 100%;
 }
 .types{
   text-align: left;
@@ -128,7 +129,7 @@ nav {
 }
 .cars-column img{
   position: relative;
-  width: 80%;
+  width: 100%;
   height: 300px;
   border-radius: 15px 15px 0 0;
 }
@@ -196,18 +197,44 @@ h3{
 .name{
   text-align: center;
 }
+.parent button{
+  border-radius: .5rem;
+}
 
+.type button img{
+  height: 80%;
+  width: 30%;
+}
+.type button{
+width: 20rem;
+height: 3rem;
+display: flex;
+margin-right: 2rem;
+border-radius: 1rem;
+}
+.playstore h3{
+  font-size: 25px;
+  margin: 20px;
+}
+.playstore p{
+  font-size: 20px;
+  margin: 20px;
+}
 
 .playstore{
   display: flex;
-  width: 100%;
-  height: 20rem;
-  padding-top: 5rem;
+  height: 15rem;
+  padding-top: 1rem 10rem;
 }
 .app{
   width: 100%;
-  height: 80%;
-  padding-left: 15rem;
+  height: 100%;
+  padding-left: 1rem 20rem;
+}
+.phone{
+  display: flex;
+  padding: 1rem 0 1rem 60rem;
+
 }
 .foot {
   display: flex;
