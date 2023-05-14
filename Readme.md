@@ -19,7 +19,7 @@ This is a project on creating a professional website providing information about
 #### By **{List of contributors}**
 
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+This website is designed to help interested and potential customers and client to access information about their desired cars and other products and services.It solves the problem of searching for a car by a click of a button.
 
 ## Setup/Installation Requirements
 * A functional Laptop.
