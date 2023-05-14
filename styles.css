@@ -97,12 +97,15 @@ nav {
 #top button {
   height: 40px;
     width: 80px;
-    border: none;
     outline: none;
-    background: orangered;
+    background: transparent;
     cursor: pointer;
-    font-weight: bold;
+    font-weight:bold;
 }
+#top button:hover{
+  background-color: yellow;
+}
+
 
 .cars{
   padding: 0 10px 30px 10px;
@@ -197,6 +200,7 @@ h3{
 .name{
   text-align: center;
 }
+
 .parent button{
   border-radius: .5rem;
 }
@@ -205,13 +209,8 @@ h3{
   height: 80%;
   width: 30%;
 }
-.type button{
-width: 20rem;
-height: 3rem;
-display: flex;
-margin-right: 2rem;
-border-radius: 1rem;
-}
+
+
 .playstore h3{
   font-size: 25px;
   margin: 20px;
