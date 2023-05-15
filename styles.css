@@ -98,6 +98,9 @@
   .buya{
     background-color: orangered;
   }
+  .renta{
+    background-color: whitesmoke;
+  }
 #image1text button:hover{ 
   background-color:orange;
 }
