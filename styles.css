@@ -4,22 +4,40 @@
     box-sizing: border-box;
   
   }
-nav {
-    display:flex;
-    justify-content:space-around;
-    align-items: center;
-    min-height: 8vh;
-    background-color: transparent;
-    border-bottom: 2px solid black;
+.nvbar li{
+  display: inline-block;
+  padding: 30px;
+  font-size: 20px;
+}
+.nvcolum{
+  float: left;
+  padding: 20px;
+  width: 30%;
+  border-bottom: 3px solid gray;
+  font-weight: 700;
+}
+.nvcolum1{
+  float: left;
+  padding: 20px;
+  width: 30%;
+  border-bottom: 3px solid gray;
+}
+.nvcolum2{
+  float: left;
+  padding: 20px;
+  width: 30%;
+  border-bottom: 3px solid gray;
+  margin-top: -3px;
 
 }
-#head {
-    color:black;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    font-size: 19px;
-  
-  }
+.nvcolum2 button{
+  background-color: orangered;
+  border-radius: 5px;
+  height: 25px;
+  border: none;
+
+}
+
   #navbar {
     display: flex;
     justify-content: space-around;
@@ -46,7 +64,7 @@ nav {
   }
   .box1 {
     width: 700px;
-    height: 600px;
+    height: 550px;
     float: right;
 
   }
@@ -112,7 +130,6 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px 35px;
-  margin-top: 300px;
   width: 100%;
 }
 .types{
@@ -200,14 +217,73 @@ h3{
 .name{
   text-align: center;
 }
+.top{
+  
+}
+
+.top2{
+  margin-top: 100px;
+}
 
 .parent button{
-  border-radius: .5rem;
+  border-radius: .1rem;
 }
 
 .type button img{
-  height: 80%;
+  height: 70%;
   width: 30%;
+}
+.type button{
+  display: flex;
+  float: left;
+  width: 20rem;
+  height: 3rem;
+  margin-right: 2rem;
+  border-radius: .5rem;
+}
+
+
+.kolumn{
+  display: inline-block;
+  margin-top: -100px;
+  margin-left: 65px;
+}
+#M1{
+  border-radius: 10px;
+  font-weight: 800;
+  background-color: orangered;
+  padding: 1px 10px;
+  margin: 8px;
+}
+#M2{
+  background-color: white;
+  border-radius: 10px;
+  padding: 1px 10px;
+  margin: 8px;
+  border: 1px solid lightgrey;
+}
+span{
+  color: orangered;
+  
+}
+#E{
+  float: right;
+  border-radius: 10px;
+  padding: 1px 0px;
+  margin: 13px;
+  
+
+}
+#merc{
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  border: 5px solid none;
+
+}
+#m{
+  float: right;
+  padding: 13px;
 }
 
 .rowapps{
@@ -266,3 +342,4 @@ border:3px solid orangered;
 .rowfoot{
   padding-top: 200px;
 }
+
