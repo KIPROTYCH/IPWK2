@@ -40,7 +40,7 @@ VSCODE
 
 
 ## Support and contact details
-incase you encounter a challege or want to contribute or support the project, feel free to reach me on kiprotych@gmail.com
+Incase you encounter a challege or want to contribute or support the project, feel free to reach me on kiprotych@gmail.com
 
 
 ### License
