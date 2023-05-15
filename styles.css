@@ -92,9 +92,11 @@
     width: 100px;
     border: none;
     outline: none;
-    background: orangered;
     cursor: pointer;
     font-weight: bold;
+  }
+  .buya{
+    background-color: orangered;
   }
 #image1text button:hover{ 
   background-color:orange;
