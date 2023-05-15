@@ -210,29 +210,29 @@ h3{
   width: 30%;
 }
 
-
-.playstore h3{
-  font-size: 25px;
-  margin: 20px;
-}
-.playstore p{
-  font-size: 20px;
-  margin: 20px;
+.rowapps{
+  background-color: antiquewhite;
+  text-align: center;
+  height: 300px;
 }
 
-.playstore{
-  display: flex;
-  height: 15rem;
-  padding-top: 1rem 10rem;
+.play{
+  height: 70px;
+  width: 150px;
+  margin-bottom: 50px;
 }
-.app{
-  width: 100%;
-  height: 100%;
-  padding-left: 1rem 20rem;
+.apstore{
+  height: 150px;
+  width: 300px;
 }
+
 .phone{
-  display: flex;
-  padding: 1rem 0 1rem 60rem;
+ width: 200px;
+ height: 400px;
+ margin-left: 800px;
+ margin-bottom: 500px;
+ margin-top: -200px;
+ 
 
 }
 .foot {
@@ -262,4 +262,7 @@ border:3px solid orangered;
 }
 .last>button:hover{
   background-color: orange;
+}
+.rowfoot{
+  padding-top: 200px;
 }
