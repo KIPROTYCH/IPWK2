@@ -6,7 +6,7 @@
   }
 .nvbar li{
   display: inline-block;
-  padding: 30px;
+  padding: 20px;
   font-size: 20px;
 }
 .nvcolum{
@@ -24,8 +24,8 @@
 }
 .nvcolum2{
   float: left;
-  padding: 20px;
-  width: 30%;
+  padding: 15px;
+  width: 40%;
   border-bottom: 3px solid gray;
   margin-top: -3px;
 
@@ -33,7 +33,9 @@
 .nvcolum2 button{
   background-color: orangered;
   border-radius: 5px;
-  height: 25px;
+  height: 35px;
+  width: 150px;
+  font-size: 19px;
   border: none;
 
 }
@@ -66,6 +68,7 @@
     width: 700px;
     height: 550px;
     float: right;
+    padding-right: 20px;
 
   }
   
@@ -80,10 +83,11 @@
     font-size: 39px;
     font-weight: 900;
     color: black;
+    padding-bottom: 20px;
 
   }
   #image1text p{
-    padding: 0 0 0 20px;
+    padding-bottom: 40px; 
     font-size: 21px;
 
   }
@@ -94,6 +98,7 @@
     outline: none;
     cursor: pointer;
     font-weight: bold;
+    border-radius: 10px;
   }
   .buya{
     background-color: orangered;
