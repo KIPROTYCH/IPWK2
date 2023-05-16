@@ -7,7 +7,7 @@
 .nvbar li{
   display: inline-block;
   padding: 20px;
-  font-size: 20px;
+  font-size: 23px;
 }
 .nvcolum{
   float: left;
@@ -24,7 +24,7 @@
 }
 .nvcolum2{
   float: left;
-  padding: 15px;
+  padding: 17px;
   width: 40%;
   border-bottom: 3px solid gray;
   margin-top: -3px;
@@ -331,6 +331,13 @@ span{
   display: flex;
   justify-content: space-between;
   padding: 20px;
+}
+.foot h4{
+  font-size: 20px;
+  padding-top: 10px;
+}
+.foot li{
+  padding-left: 10px;
 }
 
 Table {
