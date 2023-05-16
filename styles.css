@@ -149,6 +149,7 @@
   position: relative;
   grid-template-rows: auto 1fr;
   border-radius: 15px; 
+  box-shadow: 5px 5px 5px gray;
  
 }
 .cars-column img{
