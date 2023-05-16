@@ -344,9 +344,10 @@ span{
 }
 
 Table {
-border:3px solid orangered;
+ border:3px solid orangered;
   width: 100%;
-  height: 10px;
+  height: 50px;
+  margin: 20px;
 
 }
 .last>button{
@@ -360,6 +361,10 @@ border:3px solid orangered;
   width: 100px;
   height: 30px;
   cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
 
 }
 .last>button:hover{
